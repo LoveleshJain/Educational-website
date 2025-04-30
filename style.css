@@ -260,3 +260,55 @@ nav .navigation ul li a:hover{
     margin-top:22px;
 
 }
+footer{
+    padding: 6vw;
+    background-color : rgba(44,44,80);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+footer .footer_col{
+    padding-bottom: 40px;
+}
+footer h1{
+    color: rgb(241,240,245);
+    font-weight :600;
+    padding-bottom: 20px ;
+}
+footer li{
+    list-style: none;
+    color: #7b838a;
+    padding: 10px 0;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+footer li:hover{
+    color:rgb(241,240,245);
+}
+footer p{
+    color:#7b838a;
+}
+footer .subscribe{
+    margin-top: 20px;
+}
+footer input{
+    width: 220px;
+    padding: 15px 12px;
+    background-color: #cad5df;
+    border:none;
+    outline: none;
+    color: #fff;
+}
+footer .subscribe a.yellow{
+    color: #fff;
+    background-color: rgb(152, 134, 29);
+    transition: 0.2s ease;
+    padding: 7px 7px 7px 7px;
+    border-radius: 3px;
+}
+footer .subscribe a.yellow:hover {
+    color: #e6b6e0;
+    background-color: #a1a394;
+}
