@@ -36,10 +36,22 @@ nav{
     align-items: center;
     padding: 1vw 8vw;
     box-shadow: 2px 2px 10px rgba(0,0,0,0.15);
+    z-index: 999;
 }
 nav img{
     width: 100px;
     cursor: pointer;
+}
+nav .navigation{
+    display: flex;
+}
+#menubtn{
+    width: 30px;
+    height:30px;
+    display: none;
+}
+#menu-close{
+    display: none;
 }
 nav .navigation ul{
     display: flex;
@@ -311,4 +323,24 @@ footer .subscribe a.yellow{
 footer .subscribe a.yellow:hover {
     color: #e6b6e0;
     background-color: #a1a394;
+}
+@media(max-width: 769px){
+    nav {
+        padding: 15px 20px;
+    }
+    nav img {
+        width: 130px;
+    }
+    #menubtn{
+        display: initial;
+    }
+    #menu-close{
+        display: none;
+    }
+    nav .navigation ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
 }
