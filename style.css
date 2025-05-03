@@ -335,12 +335,53 @@ footer .subscribe a.yellow:hover {
         display: initial;
     }
     #menu-close{
-        display: none;
+        display: initial;
+        font-size: 1.6rem;
+        color: #fff;
+        padding: 30px 0 20px 20px;
     }
     nav .navigation ul {
+        position: absolute;
+        top:0;
+        right: -220px;;
+        width: 220px;
+        height: 100vh;
+        background-color: rgba(17,20,104,0.45);
+        backdrop-filter: blur(4.5px);
+        border: 1px solid rgba(255,255,255,0.18);
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
+        transition: 0.2s ease;
+    }
+    nav .navigation ul.active{
+        right:0;
+    }
+    nav .navigation ul li{
+        padding: 20px 0 20px 40px;
+        margin-left: 0;
+    }
+    nav .navigation ul li a{
+        color: #fff;
+    }
+    #home{
+        padding-top: 0px;
+    }
+    #home p {
+        width: 80%;
+    }
+    #features {
+        padding: 8vw 4vw 0 4vw;
+        text-align: center;
+    }
+    #registration {
+        margin-top: 8vw;
+        padding: 5vw 4vw 5vw 4vw;
+    }
+    #registration .remainder .time {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 35px;
     }
 }
