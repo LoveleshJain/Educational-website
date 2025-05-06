@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Official website</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <img src="images/logo.png" alt="">
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fas fa-times"></i>
+                <li><a href="#">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a class="active" href="blog.html">Blog</a></li>
+                <li><a href="course.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <img id="menubtn" src="images/menu.png" alt="">
+        </div>
+    </nav>
+    <section id="blog-container">
+        <div class="blogpost">
+            <div class="post">
+                <img src="images/b1.jpg" alt="">
+                <h3>Learn web devlopment in easiest way</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quaerat quis molestiae accusamus at quisquam, cupiditate nostrum nihil quidem amet cum optio labore qui est eos hic molestias eum? Facilis?
+                    <br><br>Vitae, veniam obcaecati. Eveniet accusantium laudantium, dolores repudiandae aliquid, atque perferendis molestias dolorem deleniti error temporibus reiciendis illum. Voluptatum harum impedit distinctio deserunt quasi est explicabo nisi ea tempore itaque earum quae aliquam? Id necessitatibus dolorum, ipsa laudantium aut architecto laborum fuga nulla? Quo porro pariatur voluptatibus, dolor delectus hic molestias. Temporibus sunt laboriosam placeat, modi minima excepturi eos dolore quas voluptas, commodi sed cumque perspiciatis enim tempore. Quibusdam non beatae tempora in dolorem, similique nemo, fugit quos deleniti minus obcaecati itaque vero hic molestiae.
+                </p>
+                <a href="#">Read Next -></a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer_col">
+            <h1>Top Products</h1>
+            <li>Manage Reputations</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Marketing Service</li>
+        </div>
+        <div class="footer_col">
+            <h1>Top Products</h1>
+            <li>Manage Reputations</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Marketing Service</li>
+        </div>
+        <div class="footer_col">
+            <h1>Top Products</h1>
+            <li>Manage Reputations</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Marketing Service</li>
+        </div>
+        <div class="footer_col">
+            <h1>Guides</h1>
+            <li>Reserach</li>
+            <li>Experts</li>
+            <li>Managed Website</li>
+            <li>Marketing Service</li>
+        </div>
+        <div class="footer_col">
+            <h1>Newsletter</h1>
+            <p>This is an official page,You can trust us</p>
+            <div class="subscribe">
+                <input type="text" placeholder="Enter your Email address">
+                <a href="#" class="yellow">SUBSCRIBE</a>
+            </div>
+
+        </div>
+    </footer>
+    <script>
+        $('#menubtn').click(function(){
+            $('nav .navigation ul').addClass('active')
+        });
+        $('#menu-close').click(function(){
+            $('nav .navigation ul').removeClass('active')
+        });
+    </script>
+</body>
+</html>
