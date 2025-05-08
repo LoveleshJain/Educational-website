@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Official website</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <img src="images/logo.png" alt="">
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fas fa-times"></i>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="course.html">Courses</a></li>
+                <li><a class="active" href="contact.html">Contact</a></li>
+            </ul>
+            <img id="menubtn" src="images/menu.png" alt="">
+        </div>
+    </nav>
+    <section id="home">
+        <h2>Contact Us</h2>
+    </section>
+    <section id="contact">
+        <div class="getin">
+            <h2>Get in touch</h2>
+            <p>Fill the form and start a new adventure</p>
+            <div class="getin-details">
+                <h3>Headquaters</h3>
+                <div>
+                    <i class="far fa-home get"></i>
+                    <p>744 New York Ave,Broklyn,Kings,New York 10224</p>
+                </div>
+                <h3>Phone</h3>
+                <div>
+                    <i class="fas fa-phone-alt get"></i>
+                    <p> (+642) 245 356 432<br>
+                        (+420) 336 476 328</p>
+                </div>
+                <h3>Support</h3>
+                <div>
+                    <i class="fal fa-envelope-open-text get"></i>
+                    <p>xvz@gmail.com</p>
+                </div>
+            </div>
+        </div>
+        <div class="form">
+            <h4>Let's Connect</h4>
+            <p> Connect  with us by filling the below form</p>
+            <div class="form-row">
+                <input type="text" placeholder="Your Name">
+                <input type="text" placeholder="Email">
+            </div>
+            <div class = "form-col">
+                <input type="text" placeholder="Subject">
+            </div>
+            <div class = "form-col">
+               <textarea name="" id="" cols="30" rows="8" placeholder="How can we help?"></textarea>
+            </div>
+            <div class = "form-col">
+               <button>Send Message</button>
+            </div>
+        </div>
+    </section>
+        
+    <footer>
+        <div class="footer_col">
+            <h1>Top Products</h1>
+            <li>Manage Reputations</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Marketing Service</li>
+        </div>
+        <div class="footer_col">
+            <h1>Top Products</h1>
+            <li>Manage Reputations</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Marketing Service</li>
+        </div>
+        <div class="footer_col">
+            <h1>Top Products</h1>
+            <li>Manage Reputations</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Marketing Service</li>
+        </div>
+        <div class="footer_col">
+            <h1>Guides</h1>
+            <li>Reserach</li>
+            <li>Experts</li>
+            <li>Managed Website</li>
+            <li>Marketing Service</li>
+        </div>
+        <div class="footer_col">
+            <h1>Newsletter</h1>
+            <p>This is an official page,You can trust us</p>
+            <div class="subscribe">
+                <input type="text" placeholder="Enter your Email address">
+                <a href="#" class="yellow">SUBSCRIBE</a>
+            </div>
+
+        </div>
+    </footer>
+    <script>
+        $('#menubtn').click(function(){
+            $('nav .navigation ul').addClass('active')
+        });
+        $('#menu-close').click(function(){
+            $('nav .navigation ul').removeClass('active')
+        });
+    </script>
+</body>
+</html>
